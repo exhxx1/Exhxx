@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Vito Konfig - Iraq",
+    "description": "سيرفر عالي السرعة لدولة العراق.",
+    "code": "vless://uuid@example.com:443?encryption=none&security=tls&type=ws#Iraq-Vless"
+  },
+  {
+    "title": "Vito Konfig - KSA",
+    "description": "كونفج خاص بالمملكة العربية السعودية، مستقر.",
+    "code": "vless://uuid@example.com:443?encryption=none&security=tls&type=ws#KSA-Vless"
+  },
+  {
+    "title": "Vito Konfig - Egypt",
+    "description": "كونفج لمصر، أداء ممتاز.",
+    "code": "vless://uuid@example.com:443?encryption=none&security=tls&type=ws#Egypt-Vless"
+  },
+  {
+    "title": "Vito Konfig - New Config",
+    "description": "هذا كونفج جديد يمكنك إضافته وتعديله.",
+    "code": "vless://new_uuid@new_server.com:443?encryption=none&security=tls&type=ws#New-Config"
+  }
+]
