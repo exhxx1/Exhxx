@@ -1,22 +1,30 @@
-[
-  {
-    "title": "Vito Konfig - Iraq",
-    "description": "سيرفر عالي السرعة لدولة العراق.",
-    "code": "vless://7788d2c9-27a6-4039-a943-e41138954bde@app.snapchat.com:443?path=%2Fexhxx&security=tls&encryption=none&host=aatpt-373524711166.us-central1.run.app&type=ws&sni=aatpt-373524711166.us-central1.run.app#%40exhxx%20%F0%9F%8D%B7"
-  },
-  {
-    "title": "Vito Konfig - KSA",
-    "description": "كونفج خاص بالمملكة العربية السعودية، مستقر.",
-    "code": "vless://uuid@example.com:443?encryption=none&security=tls&type=ws#KSA-Vless"
-  },
-  {
-    "title": "Vito Konfig - Egypt",
-    "description": "كونفج لمصر، أداء ممتاز.",
-    "code": "vless://uuid@example.com:443?encryption=none&security=tls&type=ws#Egypt-Vless"
-  },
-  {
-    "title": "Vito Konfig - New Config",
-    "description": "هذا كونفج جديد يمكنك إضافته وتعديله.",
-    "code": "vless://new_uuid@new_server.com:443?encryption=none&security=tls&type=ws#New-Config"
-  }
-]
+Password: 1
+---
+Title: سيرفر أوروبي DE-1
+Details: الخادم: ألمانيا - 1<br>البروتوكول: TCP (SSL)<br>حالة السيرفر: مستقر
+Code:
+[Info]
+Socks5=80
+[Config]
+Proxy=socks5://example.com:8080
+Host=https://example.com
+[Header]
+GET / HTTP/1.1
+Host: example.com
+User-Agent: Mozilla/5.0
+Connection: keep-alive
+---
+Title: سيرفر آسيوي SG-2
+Details: الخادم: سنغافورة - 2<br>البروتوكول: UDP (SSH)<br>حالة السيرفر: مستقر
+Code:
+[Info]
+Socks5=80
+[Config]
+Proxy=socks5://example.com:8080
+Host=https://example.com
+[Header]
+GET / HTTP/1.1
+Host: example.com
+User-Agent: Mozilla/5.0
+Connection: keep-alive
+---
